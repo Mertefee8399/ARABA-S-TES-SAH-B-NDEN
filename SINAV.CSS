@@ -1,0 +1,31 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: chocolate;
+    color: black;
+}
+
+/* Sadece üstteki logoyu etkiler */
+head img {
+    width: 600px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/* Sadece araç fotoğraflarını etkiler */
+.arac-foto {
+    height: 150px;
+    width: 18%;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* Videonun da kenarlarını yuvarlatır */
+video {
+    border-radius: 20px;
+    margin: 5px;
+    width: 400px;
+    height: 250px;
+    
+}
